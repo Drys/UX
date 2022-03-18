@@ -230,4 +230,7 @@ body {
         width: auto;
         margin-top: 50px;
     }
+    .hide {
+        display: none;
+    }
 }

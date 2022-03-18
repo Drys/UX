@@ -60,10 +60,10 @@
     <section>
         <h1>Hvad søger du i Køge?</h1>
         <div class="knap-container">
-            <button type="button" class="kategoribtn" id="udendørs">Udendørs Aktiviteter</button>
-            <button type="button" class="kategoribtn" id="begivenheder">Begivenheder</button>
-            <button type="button" class="kategoribtn" id="indendørs">Idendørs Aktiviteter</button>
-            <button type="button" class="kategoribtn" id="barsel">På Barsel</button>
+            <button type="button" onclick="filterOutdoor()" class="kategoribtn" id="udendørs">Udendørs Aktiviteter</button>
+            <button type="button" onclick="filterEvents()" class="kategoribtn" id="begivenheder">Begivenheder</button>
+            <button type="button" onclick="filterIndoor()" class="kategoribtn" id="indendørs">Idendørs Aktiviteter</button>
+            <button type="button" onclick="filterBarsel()" class="kategoribtn" id="barsel">På Barsel</button>
         </div>
     </section>
 
@@ -118,7 +118,8 @@
         </div>
     </section>
 
-    <section id="udendørs-section">
+    <!--Filter af kategorier: Udendørs-->
+    <section id="outdoor-section" class="hide">
         <div class="kategori-heading">
             <img src="img/udendørsicon.svg" alt="træ" class="h1-icon">
             <h1>Udendørs Aktiviteter</h1>
@@ -205,8 +206,8 @@
             </div>
         </div>
     </section>
-
-    <section id="begivenheder-section">
+    <!--Filter af kategorier: Begivenheder-->
+    <section id="begivenheder-section" class="hide">
         <div class="kategori-heading">
             <img src="img/begivenhedericon.svg" alt="kalender" class="h1-icon">
             <h1>Begivenheder</h1>
@@ -292,8 +293,8 @@
             </div>
         </div>
     </section>
-
-    <section id="indendørs-section">
+    <!--Filter af kategorier: Indendørs-->
+    <section id="indoor-section" class="hide">
         <div class="kategori-heading">
             <img src="img/indendørsicon.svg" alt="sofa" class="h1-icon">
             <h1>Indendørs Aktiviteter</h1>
@@ -379,8 +380,8 @@
             </div>
         </div>
     </section>
-
-    <section id="barsel-section">
+    <!--Filter af kategorier: På Barsel-->
+    <section id="barsel-section" class="hide">
         <div class="kategori-heading">
             <img src="img/barselicon.svg" alt="sutteflaske" class="h1-icon">
             <h1>På Barsel</h1>
