@@ -191,4 +191,31 @@ body {
         font-weight: 500;
         margin-left: 50px;
     }
+    #udvalgte {
+        margin-top: 100px;
+    }
+    .artikler {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .artikel-img {
+        height: auto;
+        width: 300px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .artikel-tekst {
+        width: 250px;
+        background-color: white;
+        position: absolute;
+        border-radius: 10px;
+        margin-top: 370px;
+        padding: 10px;
+        margin-left: 15px;
+    }
+    .artikel-tekst h3 {
+        color: black;
+        margin-top: 10px;
+    }
 }
