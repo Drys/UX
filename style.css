@@ -30,7 +30,7 @@ body {
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 1;
+    z-index: 99;
     align-content: space-between;
     background-color: white;
     width: 92vw;
