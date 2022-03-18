@@ -218,4 +218,16 @@ body {
         color: black;
         margin-top: 10px;
     }
+    .kategori-heading {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 30px;
+    }
+    .h1-icon {
+        height: 125px;
+        width: auto;
+        margin-top: 50px;
+    }
 }
