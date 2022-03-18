@@ -1,12 +1,12 @@
-
-:root{
-    --green: rgb(0,191,111);
+:root {
+    --green: rgb(0, 191, 111);
 }
 
 html {
     font-size: 100%;
     background-color: #fff;
 }
+
 body {
     overflow-x: hidden;
     font-weight: normal;
@@ -21,9 +21,39 @@ body {
     text-decoration: none;
 }
 
+.btntop {
+    position: absolute;
+    z-index: 6;
+    margin-top: 380px;
+}
+
+.bannerknap {
+    background-color: rgb(0, 191, 111);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+.bamseicon {
+    height: 40px;
+    width: auto;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
 
 /* Navigationsbar */
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,32 +66,36 @@ body {
     padding-bottom: 1vw;
 }
 
-.navbar a{
+.navbar a {
     text-decoration: none;
     display: block;
     text-transform: uppercase;
 }
 
-.navbar-logo{
+.navbar-logo {
     display: inline-block;
 }
 
-#myLinks{
+#myLinks {
     display: none;
 }
 
+
 /* burger menu */
-.burger{
+
+.burger {
     font-size: 2rem;
 }
-#mobileLinks a{
+
+#mobileLinks a {
     color: var(--green);
     text-align: left;
     padding-top: 2%;
     text-transform: uppercase;
     font-size: 16px;
 }
-#mobileLinks{
+
+#mobileLinks {
     display: none;
     background-color: white;
     text-decoration: none;
@@ -70,36 +104,30 @@ body {
     padding-top: 1%;
 }
 
-
-
-.bannerImg{
+.bannerImg {
     width: 92vw;
     height: 30vw;
     object-fit: cover;
     margin-top: 10vw;
 }
 
-
-
-@media screen and (min-width:950px){
-    
+@media screen and (min-width:950px) {
     /* fjerner burger */
-    .navbar a.icon{
+    .navbar a.icon {
         display: none;
     }
-    #mobileLinks{
+    #mobileLinks {
         display: none;
     }
-
     /* Viser desktop */
-    #myLinks{
+    #myLinks {
         display: flex;
         position: sticky;
         float: right;
         align-items: flex-end;
         justify-content: flex-end;
     }
-    #myLinks a{
+    #myLinks a {
         display: flex;
         color: var(--green);
         text-decoration: none;
@@ -107,5 +135,12 @@ body {
         padding-right: 15px;
         padding-top: 32px;
         padding-bottom: 32px;
+        color: black;
+    }
+    #myLinks a:hover {
+        color: rgb(0, 191, 111);
+    }
+    #myLinks a:visited {
+        color: rgb(0, 191, 111);
     }
 }
