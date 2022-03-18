@@ -1,0 +1,111 @@
+
+:root{
+    --green: rgb(0,191,111);
+}
+
+html {
+    font-size: 100%;
+    background-color: #fff;
+}
+body {
+    overflow-x: hidden;
+    font-weight: normal;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    color: #6d6d6d;
+    line-height: 24px;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+
+/* Navigationsbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    align-content: space-between;
+    background-color: white;
+    width: 92vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.navbar a{
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+}
+
+.navbar-logo{
+    display: inline-block;
+}
+
+#myLinks{
+    display: none;
+}
+
+/* burger menu */
+.burger{
+    font-size: 2rem;
+}
+#mobileLinks a{
+    color: var(--green);
+    text-align: left;
+    padding-top: 2%;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+#mobileLinks{
+    display: none;
+    background-color: white;
+    text-decoration: none;
+    flex-direction: column;
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+
+
+
+.bannerImg{
+    width: 92vw;
+    height: 30vw;
+    object-fit: cover;
+    margin-top: 10vw;
+}
+
+
+
+@media screen and (min-width:950px){
+    
+    /* fjerner burger */
+    .navbar a.icon{
+        display: none;
+    }
+    #mobileLinks{
+        display: none;
+    }
+
+    /* Viser desktop */
+    #myLinks{
+        display: flex;
+        position: sticky;
+        float: right;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    #myLinks a{
+        display: flex;
+        color: var(--green);
+        text-decoration: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
