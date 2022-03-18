@@ -9,18 +9,26 @@ function openMenu() {
 
 function filterOutdoor() {
     hideFilters()
+    let outdoorSection = document.getElementById("outdoor-section");
+    outdoorSection.style.display = "block";
 }
 
 function filterEvents() {
     hideFilters()
+    let eventsSection = document.getElementById("begivenheder-section");
+    eventsSection.style.display = "block";
 }
 
 function filterIndoor() {
     hideFilters()
+    let indoorSection = document.getElementById("indoor-section");
+    indoorSection.style.display = "block";
 }
 
 function filterBarsel() {
     hideFilters()
+    let barselSection = document.getElementById("barsel-section");
+    barselSection.style.display = "block";
 }
 
 function hideFilters() {
