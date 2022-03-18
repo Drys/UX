@@ -154,7 +154,7 @@ body {
         width: 300px;
         margin: 10px;
         cursor: pointer;
-        background-position: 4px 0px;
+        background-position: 15px 0px;
         background-repeat: no-repeat;
     }
     #udendørs {
@@ -168,5 +168,21 @@ body {
     }
     #barsel {
         background-image: url("img/barselicon.svg");
+    }
+    .loungeicon {
+        height: 40px;
+        width: auto;
+        position: absolute;
+        right: 0;
+        margin-right: 50px;
+        margin-top: 450px;
+    }
+    .banner p {
+        position: absolute;
+        margin-top: 135px;
+        color: white;
+        font-size: larger;
+        font-weight: 500;
+        margin-left: 50px;
     }
 }
