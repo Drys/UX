@@ -157,6 +157,12 @@ body {
         background-position: 15px 0px;
         background-repeat: no-repeat;
     }
+    .kategoribtn:hover {
+        background: #00BF6F;
+        background-position: 15px 0px;
+        background-repeat: no-repeat;
+        color: white;
+    }
     #udendørs {
         background-image: url("img/udendørsicon.svg");
     }
