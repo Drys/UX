@@ -83,6 +83,200 @@ body {
     margin-top: 10vw;
 }
 
+.btntop {
+    display: none;
+}
+
+.månedbtn {
+    display: none;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.knap-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+
+.kategoribtn {
+    background-color: transparent;
+    color: #6d6d6d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    border-color: #00BF6F;
+    width: 300px;
+    margin: 10px;
+    cursor: pointer;
+    background-position: 15px 0px;
+    background-repeat: no-repeat;
+}
+
+.kategoribtn:hover {
+    background: #00BF6F;
+    background-position: 15px 0px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#udendørs {
+    background-image: url("img/udendørsicon.svg");
+}
+
+#begivenheder {
+    background-image: url("img/begivenhedericon.svg");
+}
+
+#indendørs {
+    background-image: url("img/indendørsicon.svg");
+}
+
+#barsel {
+    background-image: url("img/barselicon.svg");
+}
+
+.loungeicon {
+    display: none;
+}
+
+.banner p {
+    position: absolute;
+    margin-top: 45px;
+    color: white;
+    font-size: 8px;
+    font-weight: 500;
+    margin-left: 0px;
+}
+
+@media screen and (min-width:540px) {
+    .banner p {
+        position: absolute;
+        margin-top: 55px;
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width:638px) {
+    .banner p {
+        position: absolute;
+        margin-top: 75px;
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width:815px) {
+    .banner p {
+        position: absolute;
+        margin-top: 90px;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 0px;
+    }
+}
+
+#udvalgte {
+    margin-top: 100px;
+}
+
+.artikler {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.artikel-img {
+    height: auto;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.artikel-tekst {
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 375px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.artikel-tekst h3 {
+    color: black;
+    margin-top: 10px;
+}
+
+.kategori-heading {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+.h1-icon {
+    height: 125px;
+    width: auto;
+    margin-top: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+.måneder-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.måneder {
+    background-color: transparent;
+    color: #00BF6F;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    border-color: #00BF6F;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    background-position: 15px 0px;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.måneder:hover {
+    background: #00BF6F;
+    background-position: 15px 0px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.green {
+    background: #00BF6F;
+    color: white;
+}
+
 @media screen and (min-width:950px) {
     /* fjerner burger */
     .navbar a.icon {
@@ -265,5 +459,42 @@ body {
     .green {
         background: #00BF6F;
         color: white;
+    }
+}
+
+@media screen and (max-width: 1184px) {
+    .knap-container {
+        margin-right: 100px;
+    }
+    .loungeicon {
+        margin-top: 400px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .loungeicon {
+        margin-top: 380px;
+    }
+}
+
+@media screen and (max-width: 1076px) {
+    .btntop {
+        margin-top: 300px;
+    }
+    .knap-container {
+        justify-content: center;
+        margin: 18px;
+    }
+    .loungeicon {
+        margin-top: 350px;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .loungeicon {
+        margin-top: 325px;
+    }
+    .artikler {
+        justify-content: space-evenly;
     }
 }
