@@ -376,6 +376,7 @@ h1 {
         right: 0;
         margin-right: 50px;
         margin-top: 450px;
+        display: block;
     }
     .banner p {
         position: absolute;
