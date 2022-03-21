@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En side om oplevelser for børnefamilier i Køge og om egen">
+    <meta name="keywords" content="oplevelser, oplev køge, børn, familier, familie, køge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="baby.css">
+
+    <!-- Ekstra stylesheet til burgermenuen -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>FOR BØRN - Oplev Køge</title>
+</head>
+
+<body>
+
+    <header class="minHeader">
+        <nav class="navbar">
+            <div class="logo">
+                <a class="logolink" href="index.html">
+                    <img class="navbar-logo" src="https://oplevkoege.dk/wp-content/uploads/2021/04/olepv-koege-logo-groen-1024x510-1.png" width="150" alt="Oplev Køge">
+                </a>
+            </div>
+            <a class="icon" onclick="openMenu()">
+                <i class="fa fa-bars burger"></i>
+            </a>
+            <div id="myLinks">
+                <a class="linkItem" id="deskBørn" href="index.html">For børn</a>
+                <a class="linkItem" id="deskAktiv" href="aktiv/aktiv.html">Aktive oplevelser</a>
+                <a class="linkItem" id="deskSpis" href="spis/spis.html">Spisesteder</a>
+                <a class="linkItem" id="deskShop" href="shop/shop.html">Shopping</a>
+                <a class="linkItem" id="deskBy" href="by/by.html">By & historie</a>
+                <a class="linkItem" id="deskKultur" href="kultur/kultur.html">Kultur</a>
+                <a class="linkItem" id="deskKalender" href="kalender/kalender.html">Kalender</a>
+            </div>
+        </nav>
+        <div id="mobileLinks">
+            <a class="mobileLinkItem" id="børn" href="index.html">For børn</a>
+            <a class="mobileLinkItem" id="aktiv" href="aktiv/aktiv.html">Aktive oplevelser</a>
+            <a class="mobileLinkItem" id="spis" href="spis/spis.html">Spisesteder</a>
+            <a class="mobileLinkItem" id="shop" href="shop/shop.html">Shopping</a>
+            <a class="mobileLinkItem" id="by" href="by/by.html">By & historie</a>
+            <a class="mobileLinkItem" id="kultur" href="kultur/kultur.html">Kultur</a>
+            <a class="mobileLinkItem" id="kalender" href="kalender/kalender.html">Kalender</a>
+        </div>
+    </header>
+
+  
+
+     <!--ny side babysvømning-->
+    <section class="container">
+           <!--knap tilbage  <a href="index.html"></a>
+          
+         <button class="previous_round" id="previous">Tilbage til forsiden</button> 
+        -->
+          
+           
+<a href="index.html" class="previous_round">Tilbage til forsiden</a>
+          
+
+
+        <div class="image">
+        <img src="img/babysvøm.jpg" alt="babysvomming"></div>
+
+        <div class="content">
+            <h2>Baby - og Småbørnshold i Køge Svømmehal</h2>
+            <p>Babysvømning er en oplevelse for dig og dit barn. Igennem vandet får dit barn styrket 
+                sin muskulatur samt udviklet sine motoriske færdigheder.<br>
+        <br> Ved at introducere barnet for vand i en tidlig alder medvirker det til, at barnet bliver 
+        mere selvsikker i forbindelse med vand senere i livet.</p>
+          <!--knap læs mere her-->
+        <button class="readmore" id="myBtn">Læs mere her</button> 
+        </div>
+    </section>
+
+      <!--Forælder lounge banner-->
+    <section class="banner" id="lounge-banner">
+        <p>Et sted du kan give din baby mad <br> og skifte deres ble, når I er en tur i byen.</p>
+        <img src="img/loungeicon.svg" class="loungeicon" alt="Forælder lounge - Køge Connect">
+        <img src="img/Lounge.png" class="bannerImg" alt="Forælder lounge">
+    </section>
+    
+    
+    <!--Månedens udvalgte section-->
+    <section id="udvalgte-section">
+        <h1 id="udvalgte">Månedens Udvalgte!</h1>
+        <div class="artikler">
+            <div>
+                <div class="artikel-tekst">
+                    <h3>Køges bedste Ishuse</h3>
+                    <p>Sommeren er her!
+                        <br> Vi giver dig her et overblik over de bedste ishuse i Køge og omregn!
+                        <br> Klik og læs mere.
+                    </p>
+                </div>
+                <div>
+                    <img src="img/is.jpg" alt="Pige spiser is" class="artikel-img">
+                </div>
+
+            </div>
+
+            <div>
+                <div class="artikel-tekst">
+                    <h3>Børne-restauranter</h3>
+                    <p>Skal I ud og spise?
+                        <br> Køge byder på flere gode restauranter til børnefamilien.
+                        <br> Se vores top 5 her!
+                    </p>
+                </div>
+                <div>
+                    <img src="img/restaurant.jpg" alt="Dreng på børnerestaurant" class="artikel-img">
+                </div>
+            </div>
+
+            <div>
+                <div class="artikel-tekst">
+                    <h3>Top 3 badesteder</h3>
+                    <p>Sommeren, sol og badetøj!
+                        <br> Skab dig et overblik over de bedste børnevenlige bade- steder i Køge her!
+                        <br> Klik og læs mere.
+                    </p>
+                </div>
+                <div>
+                    <img src="img/strand.jpg" alt="Dreng på stranden" class="artikel-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Oplev køges navbar -->
+    <!-- <nav class="navbar navbar-default navbar-fixed-top btn-hover-1 with-topbar nav-transparent-secondary-logo">                 
+        <div class="topbar tb-border-design">
+            <div class="container">
+                <div class="topbar-left-content ">
+                    <div class="topbar-socials">
+                        <ul class="redux-social-media-list clearfix">
+                            <li style="list-style: none;"><a target="_blank" href="https://www.instagram.com/visit.koege/"><i class="fab fa-instagram" title=""></i></a></li>
+                            <li style="list-style: none;"><a target="_blank" href="https://www.facebook.com/turistinformation/"><i class="fab fa-facebook-square" title=""></i></a></li>
+                            <li style="list-style: none;"><a target="_blank" href="https://www.youtube.com/channel/UCmnBjbcjBY8WmxVo5xecUnw"><i class="fab fa-youtube" title=""></i></a></li>
+                        </ul>
+                    </div>          
+                </div>
+                <div class="topbar-right-content ">
+                    <div class="topbar-contact">
+                        <span class="topbar-phone"><a href="tel:+45 69 15 61 70"><i class="fas fa-phone-alt"></i><span>+45 69 15 61 70</span></a></span>
+                        <span class="topbar-email"><a href="mailto:visitkoege@connectkoege.dk"><i class="far fa-envelope"></i><span>visitkoege@connectkoege.dk</span></a></span>
+                    </div>
+                </div>
+                <div class="topbar-extra-content">
+                    <div class="topbar-search">
+                        <span class="toggle-search fa-search fa"></span>
+                        <div class="topbar-search-container">
+                            <form role="search" method="get" class="search-form" action="https://oplevkoege.dk/">
+                                <label>
+                                    <span class="screen-reader-text">Search for:</span>
+                                    <input type="search" class="search-field" placeholder="Search …" value="" name="s" role="search">
+                                </label>
+                                <input type="submit" class="search-submit" value="">
+                            </form>                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    
+          
+        <div class="menubar main-nav-right">
+            <div class="container">
+                <div id="logo">
+                    <a class="logo" href="https://oplevkoege.dk">
+                        <img class="fixed-logo" src="https://oplevkoege.dk/wp-content/uploads/2021/04/olepv-koege-logo-groen-1024x510-1.png" width="150" alt="Oplev Køge">
+                        <img class="nav-logo" src="https://oplevkoege.dk/wp-content/uploads/2021/02/oplev-koege-sort-logo.png" width="150" alt="Oplev Køge">
+                    </a>
+                </div>
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="mobile-cart">
+                    </div>
+                    <div class="topbar-search mobile-search">
+                        <span class="toggle-search fa-search fa"></span>
+                        <div class="topbar-search-container">
+                            <form role="search" method="get" class="search-form" action="https://oplevkoege.dk/">
+                                <label>
+                                    <span class="screen-reader-text">Search for:</span>
+                                    <input type="search" class="search-field" placeholder="Search …" value="" name="s" role="search">
+                                </label>
+                                <input type="submit" class="search-submit" value="">
+                            </form>                           
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="main-menu" class="collapse navbar-collapse underline-effect" aria-expanded="false">
+                    <ul id="menu-hovedmenu" class="nav navbar-nav">
+                        <li id="menu-item-7452" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-7447 current_page_item menu-item-7452 active">
+                            <a title="FOR BØRN" href="https://oplevkoege.dk/oplev-koege/for-boern/">FOR BØRN</a></li>
+                        <li id="menu-item-7453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7453">
+                            <a title="Aktiv oplevelser" href="https://oplevkoege.dk/oplev-koege/aktiv-oplevelser/">Aktiv oplevelser</a></li>
+                        <li id="menu-item-7454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7454">
+                            <a title="SPISESTEDER" href="https://oplevkoege.dk/oplev-koege/spisesteder-i-koege/">SPISESTEDER</a></li>
+                        <li id="menu-item-7451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7451">
+                            <a title="SHOPPING" href="https://oplevkoege.dk/oplev-koege/shopping-i-koege/">SHOPPING</a></li>
+                        <li id="menu-item-7455" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7455">
+                            <a title="BY &amp; HISTORIE" href="https://oplevkoege.dk/oplev-koege/by-og-historie/">BY &amp; HISTORIE</a></li>
+                        <li id="menu-item-7456" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7456">
+                            <a title="KULTUR" href="https://oplevkoege.dk/oplev-koege/kunst-og-kultur/">KULTUR</a></li>
+                    </ul>            
+                </div>
+                <div class="main-nav-extra-content">
+                    <div class="search-cart-wrapper">
+                    </div>
+                    <div class="header-bttn-wrapper">           
+                        <a class="modal-menu-item tt_button tt_secondary_button btn_primary_color default_header_btn" target="_self" href="https://oplevkoege.dk/bubber-i-koege/">SE FILM!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav> -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
