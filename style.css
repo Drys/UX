@@ -313,6 +313,7 @@ h1 {
         position: absolute;
         z-index: 6;
         margin-top: 380px;
+        display: block;
     }
     .bamseicon {
         height: 40px;
@@ -328,6 +329,7 @@ h1 {
         height: auto;
         margin-left: 80px;
         cursor: pointer;
+        display: block;
     }
     .knap-container {
         display: flex;
